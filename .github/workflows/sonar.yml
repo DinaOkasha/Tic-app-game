@@ -15,5 +15,5 @@ jobs:
       - name: Build and analyze with SonarQube
         uses: sonarsource/sonarqube-scan-action@master
         env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN2 }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL2 }}
